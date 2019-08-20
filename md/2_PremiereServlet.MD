@@ -15,23 +15,23 @@ Afin de pouvoir exécuter une servlet Java, il est nécessaire de configurer un 
 
 - Dans l'IDE Spring Tools allez dans _**File -> New -> Other...**_ 
 
-![](imgs/set-tomcat-1.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/set-tomcat-1.png)
 
 - Choisir **_Server_**  (utiliser la barre de recherche en haut) 
 
-![](imgs/set-tomcat-2.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/set-tomcat-2.png)
 
 - **_Next_**
 
 - Choisir _**Tomcat v9.0 Server**_  
 
-![](imgs/set-tomcat-3.png) 
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/set-tomcat-3.png) 
 
 - **_Next_**
 
 - Spécifier le chemin d'installation de Apache Tomcat (répertoire ou il à été dézipper), ainsi que la version de Java à utiliser (celle précédemment configurer):
 
-![](imgs/set-tomcat-4.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/set-tomcat-4.png)
 
 - **_Finish_** 
 
@@ -41,23 +41,23 @@ Afin de pouvoir exécuter une servlet Java, il est nécessaire de configurer un 
 
 - Donner un nom au projet, spécifier l'environnement d'exécution (le serveur Apache Tomcat précedemment configuré):
 
-![](imgs/premiere-servelt-app-1.png) 
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/premiere-servelt-app-1.png) 
 
 - **_Finish_**
 
 Si tout s'est bien passé, le panneau **_Project Explorer_** doit correspondre à celà:  
 
-![](imgs/premiere-servelt-app-2.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/premiere-servelt-app-2.png)
 
 #### Ajout de l'application au serveur et démarrage 
 
 - Clic Droit sur la zone serveur dans le volet du bas: 
 
-![](imgs/add-app-to-server.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/add-app-to-server.png)
 
 - Ajouter l'application (zone _Available_) dans la zone _Configured_:
 
-![](imgs/add-app-to-server-2.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/add-app-to-server-2.png)
 
 - _**Finish**_
 
@@ -65,7 +65,7 @@ Si tout s'est bien passé, le panneau **_Project Explorer_** doit correspondre �
 
 - Clic droit sur le projet de l'application, **_Run as -> Run on Server_**:
 
-![](imgs/app-run.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/app-run.png)
 
 Celà aura pour effet de démarrer le serveur ainsi que l'application qu'il contient, vous devriez voir ceci dans les logs du serveurs :
 
@@ -84,7 +84,7 @@ En état l'application ne répond à aucun requête, aucun point d'entrée http 
 - **_New -> Servlet_**
 - Remplissez les champs **_Java package, et Class name_**:
 
-![](imgs/hello-servlet.png)
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/hello-servlet.png)
 
 - _**Finish**_
 
