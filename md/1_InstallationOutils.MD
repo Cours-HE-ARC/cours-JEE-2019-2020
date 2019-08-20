@@ -22,21 +22,21 @@ Ce mode d'installation va s'occuper de toute l'installation, y compris redéfini
 
 - Télécharger  **AdoptOpenJdk**, ici : [https://adoptopenjdk.net/release.html](https://adoptopenjdk.net/releases.html) 
 
-![](imgs/adopt-version-choix.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/adopt-version-choix.png)  
 
 - Choisir l'installation **installateur** (ou tar.gz) ***en bleu***
 
-![](imgs/adopt-version-format-choix.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/adopt-version-format-choix.png)  
   
 
 #### Instation manuelle (via archive zip)  
   
 - Télécharger  **AdoptOpenJdk**, ici : [https://adoptopenjdk.net/release.html](https://adoptopenjdk.net/releases.html)  
 
-![](imgs/adopt-version-choix.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/adopt-version-choix.png)  
 - Choisir l'installation zip (ou tar.gz) ***en gris*** et non pas la version installateur
 
-![](imgs/adopt-version-format-choix.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/adopt-version-format-choix.png)  
 
 - Dezipper le répertoire
 
@@ -63,7 +63,7 @@ Apache Tomcat(c) est un container de servlet fournissant les fonctionnalités de
   
 - Télécharger Apache Tomcat, ici : [https://tomcat.apache.org/download-90.cgi](https://tomcat.apache.org/download-90.cgi)  
 - Choisir la version adapté à votre OS sous la zone Core  
-![](imgs/tomcat9-core.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/tomcat9-core.png)  
 - Dezipper l'archive
   
 ### Spring Tools 4  
@@ -78,7 +78,7 @@ Spring Tools est un IDE basé sur Eclipse et fourni par Pivotal(c), qui maintien
 - Choisir _**Standard VM**_ puis **_Next_**
 - Définir le chemin d'installation de Java (AdoptOpenJDK), puis _**Finish**_
 
-![](imgs/set-java-ide-buid-path.png)  
+![](https://github.com/Cours-HE-ARC/cours-JEE-2019-2020/blob/master/pratique/images/set-java-ide-buid-path.png)  
 
 - Ne pas oublier de cocher la version de Java dans la liste, puis _**Apply and Choose**_
  
