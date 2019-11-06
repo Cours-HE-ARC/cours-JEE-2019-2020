@@ -1,3 +1,4 @@
+CREATE database beershop;
 USE beershop;
 
 DROP TABLE IF EXISTS panier_bieres;
