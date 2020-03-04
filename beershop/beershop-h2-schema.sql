@@ -11,15 +11,14 @@ CREATE TABLE panier (
 	id int(11) NOT NULL auto_increment,
 	date_creation DATE NOT NULL,
 	PRIMARY KEY  (id)
-) ENGINE=InnoDB AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8;
-
+);
 CREATE TABLE panier_bieres (
 	biere_id 	INT,
 	panier_id INT,
     PRIMARY KEY (biere_id,panier_id),
     FOREIGN KEY (biere_id) REFERENCES biere(id),
     FOREIGN KEY (panier_id) REFERENCES panier (id)
-) ENGINE=InnoDB AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8;
+);
 
 CREATE TABLE evaluation (
 	id int(11) NOT NULL auto_increment,
@@ -29,4 +28,4 @@ CREATE TABLE evaluation (
     note int(3) UNSIGNED,
     PRIMARY KEY (id),
     FOREIGN KEY (biere_id) REFERENCES biere(id)
-) ENGINE=InnoDB AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8;
+);
